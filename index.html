@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+
+  <title>INDEX PAGE</title>
+  <head>
+    <script>
+      function btn(z){
+      if(z==1){
+        sessionStorage.setItem("btn",1);
+    }
+      if(z==2){
+      sessionStorage.setItem("btn",2);
+    }
+  }
+      </script>
+    
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/welcome.css">
+
+  </head>
+  <body class="body" >
+     <ul>
+         <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="login.php"><i class="fas fa-home"></i> login</a></li>
+        <li><a href="#dev"><i class="fas fa-clipboard"></i> Contact </a></li>
+        <li><a href="#dev"><i class="fas fa-address-book"></i> Developer details</a></li>
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Catalogue</a>
+    <div class="dropdown-content">
+      <a href="#customer">Customer Signup</a>
+      <a href="#business">Register your Business</a>
+      <a href="#how">How site works</a>
+    </div>
+  </li> 
+    <li class="dropdown" style="float:right; width: 340px; text-align: right;">
+    <a  href="javascript:void(0)" class="dropbtn" >REGISTER</a>
+    <div class="dropdown-content">
+      <a href='signin.php' onclick=" btn(1);">Register as Customer</a>
+      <a href='signin.php' onclick=" btn(2);">Register your Business</a>
+    </div>
+  </li> 
+      </ul><br>
+   
+   <div class="bg1" id="customer" >
+
+<img src="css/11.png" height=100px width=600px> 
+    <p>
+We are NET JUGAAD, The service providers that help you locate your <br>desired handyman on one platform categorized and <br>consolidated for you. Get your work done with us with <br>ease and Search for the desired services by first becoming<br> a customer here<br><br><button onclick="btn(1); window.location.href='signin.php'"> SIGNIN HERE</button>
+</p>
+   </div>
+   <div class="bg2">
+    <p> This sarch bar will help to search the service according to the Loaction and the Availablity :  </p>
+   <form>
+  <form > 
+        <select id="service" name="service">
+          <option value="">Choose service...</option>
+         <option value="">Electrician</option>
+          <option value="">Plumber</option>
+           <option value="">Computer Mechanic</option>
+            <option value="">Doctor(home service)</option>
+            <option value="">House Cleaner</option>
+            <option value="">Driver</option>
+             <option value="">and so on..</option>
+        </select> 
+        <select id="city" name="city">
+        <option value="">Select City... </option>
+         <option value="">Indore</option>
+          <option value="">Bhopal</option>
+           <option value="">Gwaloir</option>
+            <option value="">Dewas</option>
+            <option value="">Mhow</option>
+             <option value="">and more places..</option>
+
+        </select> 
+        <button onclick="btn(1); window.location.href='signin.php'" form="submit">Submit</button>
+        </form>
+ </form> 
+   </div>
+   <div class="bg3" id="how">
+    
+    <div>
+      <h1 style="font-size: 45px;">How Our Site Works :</h1><br><br>
+  <p style=" box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); padding : 20px; background: white;">We collect data from the service providers and executives<br> and save their precious data in our database.<br><br>
+ it helps to provide on the go employment for the secrvice <br>executive and also helps the customers to find the service<br> they are searching.<br><br>
+ our optimized search engines helps the searches to take <br>time less then ~.0.5ms, and also provides interface to get<br> details about the provider's business details.<br><br><button>MORE DETAILS</button></p>
+    </div>
+    <img src="css/12.jpeg"  height=500px width=800px>
+   </div>
+
+   <div class="bg4">
+    <div class="infobox">
+    <h1> SERVER</h1><br><p> our secure server works all time with 
+                            no latency and also with full security, 
+                          </p>
+    </div>
+    <div class="infobox">
+    <h1> SEARCH</h1><br><p> our search engines are finely optimized 
+                            for latency free search results, and also 
+                            gives all the available results of customer's 
+                            desired requirements.
+                          </p>
+    </div>
+    <div class="infobox">
+    <h1> SUPPORT</h1><br><p>our customer service is available 24/7, customer or the service executive can raise the question on feedback form or also by number.
+                          </p>
+    </div>
+    <div class="infobox">
+    <h1> UI</h1><br><p> Optimized website, and simplest design helps to surf our site easily, if you find any problems or quries to ask fell free to drop a feedback. everyhing is managed in homepage after loging in.
+                          </p>
+    </div>
+    <div class="infobox">
+    <h1>DIVERSITY</h1><br><p> The NET JUGAAD site is for both customers (the one finding service) and also for business servie executives (the one providing the service), as they both can search for services.
+                          </p>
+    </div>
+   </div>
+
+<div class="bg5" id="business">
+
+  <p> 
+The site NET JUGAAD basically fetches the data of those people who are Signed up to ur site, for service providers and executives, Register your company details in our webisite to increase the reach of your customers, you can easily refgister to our site by filling form by pressing the button below :  <BR><br>
+<button onclick="btn(2); window.location.href='signin.php'" >REGISTER YOUR COMPANY HERE</button>
+  </p>
+  
+  <img src="css/13.png" height=450 width=800> 
+  </div>
+
+<div class="bg6" id="dev">
+  <div class="infobox1">
+    <h1> DEVELOPER DETAILS</h1><br><p>or any queries contact us on nmber provided below,
+or use the google form link provided below 
+DEVELOPER CONTACT :<BR><BR>
+</p>
+<p style="background: red; padding: 5px; color:white; font-size: 20px;">ghiren20@gmail.com<br>
+adityanarayanan7@gmail.com
+                          </p>
+    </div>
+
+    <div class="infobox2">
+  <h1>CALL US :</h1> 
+  <p>+91 9589200582<br>
+    +91 8839545045<br>
+    <br>
+  </p>
+  <h1> FEEDBACK FORM LINK :</h1>
+  <button onclick="window.location.href=''">FEEDBACK</button>
+  <h1>LOCATION</h1><p> Vijay Nagar, Indore<br> Madhya Pradesh 452010 <br>
+  </p>
+    </div>
+<img src="css/14.jpg" width=1200px height=600px>
+<div class="back"> </div>
+  </div>
+  <div class="end">
+<p>@NETJUGAAD.COM</p>
+  </div>
+  </body>
+</html>

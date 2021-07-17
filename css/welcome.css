@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+#hideAll
+{
+visibility: hidden;
+
+}
+.body{
+  background-image: url("home.jpg") ;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;  
+  letter-spacing: 0.1em;
+}
+
+ul {
+  list-style-type: none;
+ 
+  overflow: hidden;
+  font-size: 25px;
+  color : black;
+background: #34434f; 
+top :0;
+left : 0;
+right :0;
+margin: 0 0 0 0 ; 
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+  transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+ 
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background: darkblue;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.bg1{
+  background: #4287f5;
+  margin : 50px;
+  width : 1800px;
+  height: 680px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.bg1 img{
+  float : left;
+  padding : 250px 0 0 200px;
+
+  
+}
+.bg1 p{
+  font-size: 20px;
+  padding : 200px 0 0 100px;
+  color : white;
+  float : left;
+  text-align: center;
+}
+.bg1 button{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background: #34434f;
+    border: 0;
+    border-radius:50px;
+    padding: 2%;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: rgb(0, 255, 42);
+    text-align:center;
+    width: 400px;
+  }
+  .bg1 button:hover{
+    background: red;
+    color: black;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    font-size: 30px;
+  }
+
+.bg2{
+  margin : 50px;
+  width : 1800px;
+  height: 480px;
+  float : left;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.bg2 p{
+   background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding : 30px 5px;
+  border-radius : 20px;
+  width: 51%;
+  margin:100px 0 0 490px;
+  font-size: 20px;
+}
+.bg2 form {
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding : 5px;
+  border-radius : 20px;
+  width: 51%;
+ margin:100px 0 0 490px;
+  
+}
+
+.bg2 form button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  outline: 0;
+  background: #34434f;
+  width: 30%;
+  border: 0;
+  border-radius:30px;
+  margin: 0px 0px 8px;
+  padding: 15px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.2s;
+
+}
+.bg2 form button:hover,.form button:focus {
+  background: #1366aa;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+.bg2 form button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bg2 form select{
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 30%;
+  border: 0;
+  margin: 20px 0 ;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius:10px;
+  border: 3px solid #dbdbdb;
+  color :gray;
+}
+
+.bg3{
+  margin : 50px;
+  width : 1800px;
+  height: 680px;
+  float : left;
+  background-color: #34434f;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.bg3 div{
+padding :  50px ; 
+float : left;
+display: block;
+/*background-color: white;*/
+  background: YELLOW;
+height:  85.3%;
+width : 40%;
+}
+.bg3 button{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background: #34434f;
+    border: 0;
+    border-radius:50px;
+    padding: 2%;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: rgb(0, 255, 42);
+    text-align:center;
+    width: 400px;
+  }
+  .bg3 button:hover{
+    background: red;
+    color: black;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    font-size: 30px;
+  }
+.bg3 img{
+float : right;
+padding: 90px 100px 0 0 ;
+transition: all 0.2s;
+}
+
+.bg3 img:hover{
+ height: 510px;
+ width:  810px;
+}
+
+.bg4{
+   margin : 50px;
+  width : 1800px;
+  height: 800px;
+  float : left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.infobox{
+  margin : 130px 50px;
+  padding : 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  /*background: #d2ebb2;*/
+  background: white;
+  max-width: 150px;
+  height: 450px;
+  max-height: 500px;
+  float : left;
+  text-align: center;
+
+}
+
+.bg5{
+  background: #4287f5;
+  margin : 50px;
+  width : 1800px;
+  height: 650px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   float : left;
+   z-index : -99;
+}
+.bg5 p{
+   background: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding : 30px 30px;
+  border-radius : 20px;
+  width : 790px;
+  margin : 100px 50px;
+  font-size: 20px;
+  float : left;
+  height : 390px;
+  z-index :1;
+}
+
+.bg5 button{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    background: #34434f;
+    border: 0;
+    border-radius:50px;
+    padding:20px;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: rgb(0, 255, 42);
+    text-align:center;
+    width: 600px;
+    margin-top : 80px;
+  }
+  .bg5 button:hover{
+    background: red;
+    color: black;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    font-size: 25px;
+  }
+.bg5 img{
+float : right;
+border-radius: 20px;
+margin : 100px 50px 0 0 ;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg6{
+    margin : 50px;
+  width : 1800px;
+  height: 750px;
+  float : left;
+  background-color: #34434f;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+.bg6 img{
+
+margin : 150px 0 0 500px ;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+z-index: 2;
+position: absolute;
+}
+.back{
+
+margin : 120px 0 0 530px ;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+z-index: 1;
+position: absolute;
+background: yellow;
+width: 1200px;
+ height: 600px ;
+
+}
+.infobox1{
+  margin :  0  50px 0 0;
+  padding : 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background: white;
+  width: 380px;
+  height: 420px;
+  max-height: 500px;
+  float : left;
+  text-align: center;
+  z-index: 5;
+position: absolute;
+}
+
+
+.infobox2{
+  margin : 130px 0 0 550px;
+  padding : 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background:red;
+  width: 300px;
+  height: 500px;
+  max-height: 500px;
+  float : left;
+  text-align: center;
+  z-index: 4;
+position: absolute;
+
+}
+.infobox2 button{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: yellow;
+    color : black;
+    border: 0;
+    border-radius:50px;
+    padding:20px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: rgb(0, 255, 42);
+    text-align:center;
+    width: 200px;
+  }
+  .infobox2 button:hover{
+    background:#34434f;
+    color : white;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    font-size: 20px;
+  }
+.end{
+background: #34434f; 
+  width : 100%;
+  height: 100px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   float : left;
+}
